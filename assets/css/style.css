@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a,li{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+body{
+   background-color: #292D34;
+}
+.header__wrapper{
+    display: flex;
+    margin-top: 57px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__menu{
+    display: flex;
+    gap: 85px;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 26px;
+    padding-left: 67px;
+    background-color: #4F5359;
+    border-radius: 30px;
+    height: 83px;
+    max-width: 1050px;
+    font-size: 24px;
+}
+.header__logo{
+    margin-left: 232px;
+}
+.header__link{
+    color: #fff;
+}
+.header__nav{
+    position: right;
+}
+.header__additional_menu{
+
+    position: right;
+}
+.banners{
+    display: flex;
+    margin-top: 173px;
+    justify-content: space-between;
+}
+
+.banner__1{
+    justify-content: flex-start;
+    display: flex;
+    max-width: 700px;
+    background-color: #4F5359;
+    border-radius: 30px;
+    padding-left: 299px;
+    gap: 130px;
+}
+.banner__2{
+    display: flex;
+    max-width: 700px;
+    background-color: #4F5359;
+    border-radius: 30px;
+    padding-left: 295px;
+    margin-left: 199px;
+}
+.banner-text{
+    color: #fff;
+    font-size: 40px;
+
+}
+.merch{
+    background-color: #292D34;
+    border-radius: 30px;
+    max-width: 401px;
+    max-height: 418px;
+    margin: auto;
+}
+.banner__deletion{
+    background-color: #292D34;
+    border-radius: 30px;
+}
